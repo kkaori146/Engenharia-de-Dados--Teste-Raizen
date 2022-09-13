@@ -4,11 +4,11 @@
 
 ## Sites e links utilizados
 
-- Fonte das Tabelas Dinâmicas
+#### Fonte das Tabelas Dinâmicas
 
 https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fwww.gov.br%2Fanp%2Fpt-br%2Fcentrais-de-conteudo%2Fdados-estatisticos%2Fde%2Fvdpb%2Fvendas-combustiveis-m3.xls&wdOrigin=BROWSELINK
 
-- Teste Engenharia de Dados
+#### Teste Engenharia de Dados
 
 https://github.com/raizen-analytics/data-engineering-test
 
@@ -24,7 +24,7 @@ https://github.com/raizen-analytics/data-engineering-test
 
 - os colabs utilizados com os arquivos do csv_bruto foram armazenados na subpasta "Google_Colab_csv_bruto";
 
-- cada arquivo do tipo de derivado de petróleo foi concatenado e se encontra na pasta "csv_concatenacao" dentro da pasta "concat_penultimo_ultimo_tratamento";
+- cada arquivo do tipo de derivado de petróleo foi concatenado e encontra-se na subpasta "csv_concatenacao" dentro da pasta "concat_penultimo_ultimo_tratamento";
 
 - O csv concatenado está na pasta "concat_penultimo_ultimo_tratamento" juntamento com o arquivo do google colab utilizado com ele (ANP_Concat); 
 
@@ -46,9 +46,9 @@ https://github.com/raizen-analytics/data-engineering-test
 
 - os resultados das pipelines (csv gerado e prints) criados no Google Cloud Platform estão na subpasta "resultados_pipes";
 
-- dentro do arquivo "Pipelines_Dataflow", há diferentes tipos de pipelines desenvolvidas;
+- dentro do arquivo "Pipelines_Dataflow", há diferentes tipos de pipelines desenvolvidos;
 
-- A intenção foi criar duas pipelines que retornassem a quantidade do produto total, pelo estado e cada tipo de produto. Entretanto, alguns empecilhos, fizeram com que fossem gerados outros tipos de pipelines com diferentes informações (ver o arquivo "Pipelines_Dataflow"), afim de alcançar o objetivo.
+- A intenção foi criar duas pipelines que retornassem a quantidade do produto total, pelo estado e cada tipo de produto. Entretanto, alguns empecilhos fizeram com que fossem gerados outros tipos de pipelines com diferentes informações (ver arquivo "Pipelines_Dataflow"), afim de alcançar o objetivo.
 
   
 
