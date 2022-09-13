@@ -50,6 +50,11 @@ https://github.com/raizen-analytics/data-engineering-test
 
 - A intenção foi criar duas pipelines que retornassem a quantidade do produto total, pelo estado e cada tipo de produto. Entretanto, alguns empecilhos fizeram com que fossem gerados outros tipos de pipelines com diferentes informações (ver arquivo "Pipelines_Dataflow"), afim de alcançar o objetivo.
 
+<hr/>
+
+### Arquivos em formato Parquet
+
+- os datasets tratados foram convertidos do formato csv para parquet, estão armazenados na pasta "parquet" e o arquivo google colab está na mesma pasta (subpasta "G_Colab_Parquet").
   
 
 
