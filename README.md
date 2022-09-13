@@ -30,7 +30,15 @@ https://github.com/raizen-analytics/data-engineering-test
 
 - o arquivo do google colab utilizado para o último tratamento e concatenação está armazenado na pasta "Google Colabs";
 
-- os datasets finais (tratados), estão armazenados na pasta "datasets_final"
+- os datasets finais (tratados), estão armazenados na pasta "datasets_final".
+
+<hr/>
+
+### Parquet
+
+- os datasets finais foram convertidos do formato csv para parquet;
+
+- os arquivos convertidos estão na pasta "parquet" na subpasta G_Colab_Parquet e os arquivos convertidos na mesma pasta.  
 
 <hr/>
 
