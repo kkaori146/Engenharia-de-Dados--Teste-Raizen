@@ -24,11 +24,9 @@ https://github.com/raizen-analytics/data-engineering-test
 
 - os colabs utilizados com os arquivos do csv_bruto foram armazenados na subpasta "Google_Colab_csv_bruto";
 
-- cada tipo de derivado de petróleo foi concatenado e se encontra na pasta "csv_concatenacao";
+- cada arquivo do tipo de derivado de petróleo foi concatenado e se encontra na pasta "csv_concatenacao" dentro da pasta "concat_penultimo_ultimo_tratamento";
 
-- O csv do penúltimo tratamento está na pasta "Datasets_google_colab"; 
-
-- o arquivo do google colab utilizado para o último tratamento e concatenação está armazenado na pasta "Google Colabs";
+- O csv concatenado está na pasta "concat_penultimo_ultimo_tratamento" juntamento com o arquivo do google colab utilizado com ele (ANP_Concat); 
 
 - os datasets finais (tratados), estão armazenados na pasta "datasets_final".
 
