@@ -28,29 +28,23 @@ https://github.com/raizen-analytics/data-engineering-test
 
 - O csv concatenado está na pasta "concat_penultimo_ultimo_tratamento" juntamento com o arquivo do google colab utilizado com ele (ANP_Concat); 
 
-- os datasets finais (tratados), estão armazenados na pasta "datasets_final".
+- os datasets finais (tratados), estão armazenados na pasta "dataset_final".
 
 <hr/>
 
 ### Parquet
 
-- os datasets finais foram convertidos do formato csv para parquet;
+- o dataset final foi convertido do formato csv para parquet;
 
-- os arquivos convertidos estão na pasta "parquet" na subpasta G_Colab_Parquet e os arquivos convertidos na mesma pasta.  
+- o arquivo convertido está na pasta "parquet" na subpasta G_Colab_Parquet e o arquivo convertido na mesma pasta.  
 
 <hr/>
 
 ### Pipelines
 
-- desenvolvimento do código foi realizado no google colab, o arquivo está armazenado na pasta "dataflow", subpasta colab_pipe;
+- desenvolvimento do código foi realizado no google colab, o arquivo está armazenado na pasta "pipeline", subpasta colab_pipe;
 
-- os resultados das pipelines (csv gerado e prints) criados no Google Cloud Platform estão na subpasta "resultados_pipes";
-
-- dentro do arquivo "Pipelines_Dataflow", há diferentes tipos de pipelines desenvolvidos;
-
-- A intenção foi criar duas pipelines que retornassem a quantidade do produto total, pelo estado e cada tipo de produto. Entretanto, alguns empecilhos fizeram com que fossem gerados outros tipos de pipelines com diferentes informações (ver arquivo "Pipelines_Dataflow"), afim de alcançar o objetivo.
-
-  
+- foi criado duas pipelines em relação ao estado por produto e volume total do derivado. O mesmo foi feito para o diesel.
 
 
 
