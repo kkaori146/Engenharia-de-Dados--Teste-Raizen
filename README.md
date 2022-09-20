@@ -20,15 +20,15 @@ https://github.com/raizen-analytics/data-engineering-test
 
 - coleta de dados das tabelas dinâmicas; 
 
-- dados coletados foram alterados e armazenados em formato csv na pasta "csv_brutos_pre_alterados", na subpasta csv_bruto;
+- dados coletados foram alterados e armazenados em formato csv na pasta "arquivos_originais_csv";
 
-- os colabs utilizados com os arquivos do csv_bruto foram armazenados na subpasta "Google_Colab_csv_bruto";
+- cada produto foi concatenado de acordo com seu tipo e os google colabs armazenados na pasta "concatenação" ---> subpasta "colabs_concat_produtos";
 
-- cada arquivo do tipo de derivado de petróleo foi concatenado e encontra-se na subpasta "csv_concatenacao" dentro da pasta "concat_penultimo_ultimo_tratamento";
+- cada produto após concatenado (por estado), foi armazenado na pasta "concatenação" --> subpasta "csv_concatenacao";
 
-- O csv concatenado está na pasta "concat_penultimo_ultimo_tratamento" juntamento com o arquivo do google colab utilizado com ele (ANP_Concat); 
+- o colab "ANP_Concat.ipynb", foi utilizado na última concatenação e tratamento e o dataset gerado ("dataset_derivados_pandas"), está armazenado na pasta "concatenação";
 
-- os datasets finais (tratados), estão armazenados na pasta "dataset_final".
+- na pasta dataset_final está armazenado o dataset tratado;
 
 <hr/>
 
@@ -36,13 +36,13 @@ https://github.com/raizen-analytics/data-engineering-test
 
 - o dataset final foi convertido do formato csv para parquet;
 
-- o arquivo convertido está na pasta "parquet" na subpasta G_Colab_Parquet e o arquivo convertido na mesma pasta.  
+- na pasta "parquet", foi armazenado o colab (subpasta "G_Colab_Parquet") e o dataset em formato parquet ("derivados_petrol.parquet");
 
 <hr/>
 
 ### Pipelines
 
-- desenvolvimento do código foi realizado no google colab, o arquivo está armazenado na pasta "pipeline", subpasta colab_pipe;
+- desenvolvimento do código foi realizado no google colab, o arquivo está armazenado na pasta "pipeline";
 
 - foi criado duas pipelines em relação ao estado por produto e volume total do derivado. O mesmo foi feito para o diesel.
 
