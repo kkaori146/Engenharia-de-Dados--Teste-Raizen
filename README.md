@@ -35,7 +35,7 @@ https://github.com/raizen-analytics/data-engineering-test
 
 - desenvolvimento do código foi realizado no google colab, o arquivo está armazenado na pasta "pipelines", subpasta apache beam;
 
-- na pasta apache airflow, foi realizado o mesmo desafio da pasta apache beam, porém utilizando como ferramenta o airflow.
+
 
 
 
