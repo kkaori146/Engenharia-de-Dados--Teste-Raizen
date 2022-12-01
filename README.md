@@ -21,6 +21,8 @@ https://github.com/raizen-analytics/data-engineering-test
 
 - dados coletados foram armazenados em formato csv na pasta "arquivos_originais_csv";
 
+- concatenação dos datasets e tratamento (pasta "concatenação")
+
 - os datasets finais foram armazenados em formato csv e parquet, respectivamente nas pastas: "dataset_final" e "parquet".
 
 
