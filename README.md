@@ -1,20 +1,19 @@
 # Teste de Engenharia de Dados da empresa Raízen
 
-<hr>
-
 ## Sites e links utilizados
 
-- Fonte das Tabelas Dinâmicas
+- ANP
 
-https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fwww.gov.br%2Fanp%2Fpt-br%2Fcentrais-de-conteudo%2Fdados-estatisticos%2Fde%2Fvdpb%2Fvendas-combustiveis-m3.xls&wdOrigin=BROWSELINK
+https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/vendas-de-derivados-de-petroleo-e-biocombustiveis
 
 - Teste Engenharia de Dados
 
 https://github.com/raizen-analytics/data-engineering-test
 
-<hr>
 
-## Etapas
+## APACHE BEAM
+
+### Etapas
 
 ### Tratamento utilizando Pandas e PySpark
 
@@ -22,18 +21,39 @@ https://github.com/raizen-analytics/data-engineering-test
 
 - dados coletados foram armazenados em formato csv na pasta "arquivos_originais_csv";
 
-- na pasta "concatenação", estão armazenados os dados concatenados para cada tipo de combustível com seu respectivo colab e arquivo csv. Assim como, o google colab do arquivo final;
+- os datasets finais foram armazenados em formato csv e parquet, respectivamente nas pastas: "dataset_final" e "parquet".
 
-- na pasta "dataset_final" está armazenado o csv final;
-
-- na pasta G_Colab_Parquet, está armazenado o arquivo parquet para os derivados do petróleo;
-
-
-<hr>
 
 ### Pipelines
 
-- desenvolvimento do código foi realizado no google colab, o arquivo está armazenado na pasta "pipelines", subpasta apache beam;
+- os dados solicitados pelo desafio foram desenvolvidos primeiramente utilizando a ferramenta apache beam (pasta "pipelines");
+
+<hr/>
+
+## APACHE AIRFLOW
+
+### Etapas
+
+- extração dos dados via url;
+
+- tratamento;
+
+- armazenamento em formato parquet e csv;
+
+- criação dos datasets contendo as informações solicitadas.
+
+### Pipelines
+
+- na pasta "apache beam" estão armazenados todos os materiais de apoio utilizados assim como os arquivos gerados e desenvolvidos para completar o desafio-teste. 
+
+## Resultados
+
+### APACHE BEAM
+
+
+### APACHE AIRFLOW
+
+
 
 
 
