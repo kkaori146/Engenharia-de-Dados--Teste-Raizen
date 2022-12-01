@@ -12,6 +12,16 @@ https://github.com/raizen-analytics/data-engineering-test
 
 ## Objetivos
 
+- desenvolvimento de pipelines contendo:
+  - venda dos derivados do petróleo por estado;
+  - venda do óleo diesel por estado;
+  
+- schema:
+
+|<mark>Column</mark> | year_month | uf | product | unit | volume | created_at|
+|--- | --- | --- | --- |--- |--- |--- |
+|Type | date | string | string | string | double | timestamp|
+
 
 
 ## Ferramentas
@@ -79,12 +89,12 @@ https://github.com/raizen-analytics/data-engineering-test
 <div align="center">
 <img src="https://user-images.githubusercontent.com/83531935/205038512-6b0fd8a5-d857-4c9e-8975-cb1ceae0127e.png" width=1000px > </div>
 
-### Visão da Tabela Geral
+### Visão do Dataset Geral
 
 <div align="center">
 <img src="https://user-images.githubusercontent.com/83531935/205038508-9f583585-18a0-40dd-9a57-61b457abd491.png" width=700px > </div>
 
-### Visão Geral da Tabela com dados de UF, Produto e Volume Total dos Derivados e do Óleo Diesel
+### Visão Geral do dataset com dados de UF, Produto e Volume Total dos Derivados e do Óleo Diesel
 
 <div align="center">
 <img src="https://user-images.githubusercontent.com/83531935/205038504-1369761d-d023-4f33-8738-9b9449f3490c.png" width=700px > </div>
